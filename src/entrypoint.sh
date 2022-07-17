@@ -1,13 +1,4 @@
-#!/bin/sh
-
-if [ "${DEBUG}" = "true" ]; then
-  set -x
-fi
-
-# If the argument is a command, run that command
-if which "$1" > /dev/null 2>&1; then
-  exec "$@"
-fi
+!/bin/sh
 
 # Otherwise, use as arguments for imap-backup
-exec imap-backup "$@"
+exec /usr/local/bundle/bin/imap-backup "$@"
