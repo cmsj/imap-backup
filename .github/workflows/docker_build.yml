@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - 'master'
+    paths:
+      - 'src/Dockerfile'
+      - 'src/entrypoint.sh'
 
 env:
   REGISTRY: ghcr.io
