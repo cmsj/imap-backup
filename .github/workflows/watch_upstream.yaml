@@ -8,8 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.REPO_SCOPED_TOKEN }}
+
       - name: Fetch release version
         run: |
           curl -sL https://api.rubygems.org/api/v1/versions/imap-backup.json | jq -r '.[0] | .number' >upstream_latest_release.txt
