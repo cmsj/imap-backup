@@ -4,7 +4,7 @@ on:
   schedule:
     - cron:  '37 04 26 1,3,5,7,9,11 *'
 jobs:
-  get-version:
+  dummy-keepalive:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
