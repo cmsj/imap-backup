@@ -11,6 +11,16 @@ jobs:
         with:
           token: ${{ secrets.REPO_SCOPED_TOKEN }}
 
+      - name: Extract our target base image name/label
+        id: base_image
+        run: echo "label=$(grep FROM src/Dockerfile | awk '{ print $2 }')" >> $GITHUB_OUTPUT
+
+      - name: Ensure we have the latest version of our base image
+        run: sudo docker pull ${{ steps.base_image.outputs.label }}
+
+      - name: Capture base image hash
+        run: docker images ${{ steps.base_image.outputs.label }} >upstream_docker_version.txt
+
       - name: Fetch release version
         run: |
           curl -sL https://api.rubygems.org/api/v1/versions/imap-backup.json | jq -r '.[0] | .number' >upstream_latest_release.txt
