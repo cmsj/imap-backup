@@ -1,2 +1,2 @@
-REPOSITORY   TAG       IMAGE ID       CREATED      SIZE
-ruby         alpine    ffd60f8fc6ad   9 days ago   71.1MB
+REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
+ruby         alpine    ffd60f8fc6ad   10 days ago   71.1MB
