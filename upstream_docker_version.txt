@@ -1,2 +1,2 @@
 REPOSITORY   TAG       IMAGE ID       CREATED        SIZE
-ruby         alpine    93952a66d4aa   10 hours ago   73MB
+ruby         alpine    93952a66d4aa   34 hours ago   73MB
