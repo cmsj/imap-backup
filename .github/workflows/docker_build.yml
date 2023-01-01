@@ -8,6 +8,7 @@ on:
       - 'src/entrypoint.sh'
       - 'upstream_latest_release.txt'
       - 'upstream_docker_version.txt'
+      - 'upstream_dependency_versions.txt'
 
 env:
   REGISTRY: ghcr.io
