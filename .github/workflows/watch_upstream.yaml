@@ -27,7 +27,7 @@ jobs:
 
       - name: Fetch dependencies
         run: |
-          gem install imap-backup
+          gem install --user imap-backup
           gem dependency imap-backup >upstream_dependency_versions.txt
 
       - name: Check for modified files
