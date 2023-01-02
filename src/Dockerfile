@@ -1,4 +1,5 @@
 FROM ruby:alpine
+LABEL org.opencontainers.image.description Unofficial automated container for https://github.com/joeyates/imap-backup
 
 # Install imap-backup
 RUN gem install 'imap-backup'
