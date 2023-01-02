@@ -1,6 +1,9 @@
 name: Get latest release version
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/watch_upstream.yaml'
   schedule:
     - cron:  '0 05 * * *'
 jobs:
@@ -19,7 +22,7 @@ jobs:
         run: sudo docker pull ${{ steps.base_image.outputs.label }}
 
       - name: Capture base image hash
-        run: docker images ${{ steps.base_image.outputs.label }} >upstream_docker_version.txt
+        run: docker images --format "{{.Repository}} {{.Tag}} {{.ID}}" ${{ steps.base_image.outputs.label }} >upstream_docker_version.txt
 
       - name: Fetch release version
         run: |
