@@ -1,1 +1,1 @@
-ruby alpine b044f52438b7
+ruby alpine ad9ed94e3364
