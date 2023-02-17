@@ -1,4 +1,4 @@
 #!/bin/sh
 
-# Otherwise, use as arguments for imap-backup
+# Pass all incoming arguments to imap-backup
 exec /usr/local/bundle/bin/imap-backup "$@"
