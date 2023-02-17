@@ -59,4 +59,4 @@ jobs:
         with:
           package-name: 'imap-backup'
           package-type: 'container'
-          min-versions-to-keep: 5
+          min-versions-to-keep: 10
