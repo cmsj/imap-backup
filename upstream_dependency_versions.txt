@@ -1,4 +1,4 @@
-Gem imap-backup-9.2.0
+Gem imap-backup-9.3.0
   aruba (>= 0.0.0, development)
   highline (>= 0)
   mail (= 2.7.1)
