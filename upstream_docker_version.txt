@@ -1,1 +1,1 @@
-ruby alpine ac24d336c394
+ruby alpine 7660dae900cb
