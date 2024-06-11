@@ -1,4 +1,4 @@
-Gem imap-backup-15.0.1
+Gem imap-backup-15.0.2
   highline (>= 0)
   mail (= 2.7.1)
   net-imap (>= 0.3.2)
