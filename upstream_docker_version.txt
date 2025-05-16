@@ -1,1 +1,1 @@
-ruby alpine 6b368c3813be
+ruby alpine 9a84cabe9544
