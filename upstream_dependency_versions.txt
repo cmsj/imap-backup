@@ -1,9 +1,11 @@
-Gem imap-backup-15.0.2
+Gem imap-backup-16.0.0
   highline (>= 0)
+  logger (>= 0)
   mail (= 2.7.1)
   net-imap (>= 0.3.2)
   net-smtp (>= 0)
   os (>= 0)
+  ostruct (>= 0)
   rake (>= 0)
   thor (~> 1.1)
   thunderbird (= 0.3.0)
