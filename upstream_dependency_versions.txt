@@ -1,4 +1,4 @@
-Gem imap-backup-16.2.0
+Gem imap-backup-16.3.0
   highline (>= 0)
   logger (>= 0)
   mail (= 2.7.1)
