@@ -1,4 +1,4 @@
-Gem imap-backup-16.4.1
+Gem imap-backup-16.4.2
   highline (>= 0)
   logger (>= 0)
   mail (= 2.7.1)
@@ -9,5 +9,5 @@ Gem imap-backup-16.4.1
   rake (>= 0)
   sys-proctable (>= 0)
   thor (~> 1.1)
-  thunderbird (= 0.3.0)
+  thunderbird (~> 0.6.0)
 
