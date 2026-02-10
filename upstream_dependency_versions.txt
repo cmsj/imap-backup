@@ -1,5 +1,7 @@
-Gem imap-backup-16.4.2
+Gem imap-backup-16.5.0
   highline (>= 0)
+  i18n (>= 0)
+  locale (>= 0)
   logger (>= 0)
   mail (= 2.7.1)
   net-imap (>= 0.3.2)
